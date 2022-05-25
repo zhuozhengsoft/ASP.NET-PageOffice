@@ -293,7 +293,6 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
-*.dll
 /Yuebon.Api/Yuebon.WebApi/wwwroot/upload
 /Yuebon.Api/Yuebon.WebApi/upload/opp/20190912
 /Yuebon.Manager/Yuebon.WebApp/wwwroot/upload/cqinwn/opp/2019/11/18/2019111816150498189370_300x300.jpeg
