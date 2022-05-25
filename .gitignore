@@ -10,7 +10,6 @@ obj/
 logs/
 upload/
 *.[pdb]
-**/bin/**
 **/obj/**
 .vs/*
 .sln
@@ -22,19 +21,15 @@ upload/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
-x64/
-x86/
 bld/
-[Bb]in/
 [Oo]bj/
 [Ll]ogs/
 app_data/
 [Aa]pps/
-[Bb]in/
+
 [Oo]bj/
 app_data/
 [Aa]pps/
-**/[Bb]in/**
 **/[Oo]bj/**
 **.cache
 
