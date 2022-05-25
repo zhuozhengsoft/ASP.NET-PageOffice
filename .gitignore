@@ -24,11 +24,9 @@ upload/
 bld/
 [Oo]bj/
 [Ll]ogs/
-app_data/
 [Aa]pps/
 
 [Oo]bj/
-app_data/
 [Aa]pps/
 **/[Oo]bj/**
 **.cache
