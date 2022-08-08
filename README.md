@@ -58,15 +58,14 @@ public PageOffice.PageOfficeCtrl PageOfficeCtrl1 = new PageOffice.PageOfficeCtrl
 <%=PageOfficeCtrl1.GetHtmlCode("PageOfficeCtrl1")%>
 ```
 
-4. 如果使用 PageOffice 的 POBrowser 方式打开文件， 那么调用 javascript 方法
+4. 如果使用“PageOffice浏览器”方式打开文件， 那么调用 javascript 方法
 
 “POBrowser.openWindowModeless”的页面一定要引用下面的 js 文件：
 
 `<script type="text/javascript" src="/pageoffice.js"></script>`
 
-> 【注意】：pageoffice.js 文件的位置在第 2 步web.config文件中已经设置好了，
+> 【注意】：pageoffice.js 文件的位置在第 2 步web.config文件中已经配置好了引用路径，默认pageoffice.js文件配置到了当前项目的根目录下，所以需要调用POBrowser.openWindowModeless的页面直接引用当前项目根目录下的这个 js 即可，无需拷贝 pageoffice.js 文件到自己的Web项目目录下。
 >
-> 所以直接引用这个 js 即可，无需拷贝 pageoffice.js 文件到自己的Web项目目录下。
 
 
 ### 六、电子印章功能说明
